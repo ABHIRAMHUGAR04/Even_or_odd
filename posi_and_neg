@@ -1,0 +1,10 @@
+def positive_negative_zero(num):
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+print("Positive, Negative or Zero result: ", positive_negative_zero(-3))

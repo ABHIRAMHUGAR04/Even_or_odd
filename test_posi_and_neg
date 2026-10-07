@@ -1,0 +1,10 @@
+from posi_and_neg import pos_or_neg
+
+def test_positive():
+    assert pos_or_neg(5) == "Positive number"
+
+def test_negative():
+    assert pos_or_neg(-3) == "Negative number"
+
+def test_zero():
+    assert pos_or_neg(0) == "Zero"  
